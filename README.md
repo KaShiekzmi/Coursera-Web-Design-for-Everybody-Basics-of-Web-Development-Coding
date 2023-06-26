@@ -2,7 +2,7 @@
 
 Welcome to the "Web Design for Everybody" repository! This repository is dedicated to teaching the basics of web development and coding, making it accessible to beginners.
 
-# Certificates:
+## Certificates
 
 1- [Introduction to HTML5](https://www.coursera.org/account/accomplishments/certificate/5HT4ZTUSTWJM)
 
