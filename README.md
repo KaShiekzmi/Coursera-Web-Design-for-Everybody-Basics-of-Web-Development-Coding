@@ -4,7 +4,8 @@ Welcome to the "Web Design for Everybody" repository! This repository is dedicat
 
 ## Certificates
 
-1- [Introduction to HTML5](https://www.coursera.org/account/accomplishments/certificate/5HT4ZTUSTWJM)
+1- [Introduction to HTML5](https://www.coursera.org/account/accomplishments/certificate/5HT4ZTUSTWJM)\
+2- [Introduction to CSS3](https://www.coursera.org/account/accomplishments/certificate/JCU4BPC9PT2S)
 
 ## Contributions
 
