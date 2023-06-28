@@ -1,0 +1,129 @@
+/* 1) The table should be styled using at least four properties
+
+2) The table headings should have a border, background color, and at least one other image
+
+3) Style the table so that the text in the first column is left-aligned and the text in the other two columns is centered
+
+4) Set the opacity of the table rows to a value between .6 and .8 (make sure it is still visible)
+
+5) Change the opacity of a row when it is hovered over
+
+6) The table elements < td > should be styled using at least four properties */
+
+h1 {
+    color: #ffffff;
+    font-variant: small-caps;
+    padding: 2%;
+}
+
+body {
+	padding: 2%;
+	margin: 2%;
+    font-size: 110%;
+}
+
+header {
+	background: #FFFFFF;
+	background: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg') no-repeat;
+    background-size: 110%;
+}
+
+nav a {
+	display: inline-block;
+	margin: 20px;
+	width: 15%;
+	height: 30px;
+	border-radius: 5px;
+	background: #ffffff;
+	opacity: 0.3;
+	text-align: center;
+	padding: 10px 5px;
+	text-decoration: none;
+	font-variant: small-caps; 
+}
+
+.active {
+	opacity: 1;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 150px;
+	border: 2px solid black;
+}
+
+.left {
+	background: #b3b3b3;
+	display: inline-block;
+    float: left;
+	width: 20%;
+}
+
+.right {
+	padding-left: 1%;
+	display: inline-block;
+    float: right;
+	width: 77%;
+	margin-top: 10px;
+    padding-right: 2%
+}
+
+/* Table Styling */
+table {
+    padding: 2%;
+    margin: 0 auto;
+    line-height: 50px;
+    width: 65%;
+    padding-bottom: 5%;
+}
+
+/* Table Header Styling */
+th {
+    background-color: 	#9ACD32;
+    padding: 2%;
+    font-variant: small-caps;
+    font-size: 100%;
+    color: #ffffff;
+    line-height: 40px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 2px solid #339933;
+}
+
+/*Make the table text in two columns to the right centered*/
+th, tr td {
+    text-align: center;
+}
+
+/*Make the table text in the column to the left left-aligned*/
+th:first-child, tr td:first-child {
+    text-align: left;
+}
+
+/* Set opacity of table rows*/
+tr td {
+    opacity: 0.6;
+}
+
+
+/*Change opacity of table rows when hovered over*/
+tr:hover td {
+    opacity: 1;
+    color: #339933;
+    font-weight: bold;
+    font-size:100%;
+    line-height: 60px;
+}
+
+/*Styling the table cells*/
+td {
+    background-color: #90EE90;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 90%;
+    border-bottom: 2px solid #ffffff;
+}
+

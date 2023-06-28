@@ -1,0 +1,111 @@
+
+body{
+	margin: 1%;
+	padding:1%;
+	background-color: rgba(0,0,255,.2);
+	font-size: 12px;
+	min-width: 500px;
+
+}
+header, footer{
+  background-color:#0066FF;
+  padding: 1%;
+  margin: 1%;
+}
+header h1{
+	font-size: 3em;
+	color:rgba(0,0,0,.7);;
+
+}
+h1{
+	text-align: center;
+	color:rgba(255,0,0,.7);;
+}
+
+
+section{
+  margin:1%;
+  padding:1%;
+  display:block;
+}
+nav a{
+	display:block;
+	text-align: center;
+  font-size: 2em;
+}
+
+.myClass{
+	margin: 0em 1em;
+	padding:.75em;
+	border: 1px solid black;
+	border-radius: .25%;
+
+	/* Safari and Chrome */	
+	-webkit-column-count:3;
+	-moz-column-count: 3;
+	column-count:3;
+  font-size: 1em;
+}
+
+ol{
+	list-style:upper-roman; 
+	margin:1em;
+}
+img{
+	display: none;
+}
+
+footer{
+	clear: both;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+@media only screen {
+	nav a{
+		background-color: white;
+		border: 1px solid black;
+		border-radius: 35px;
+		padding: 2%;
+		margin: 1%;
+    text-decoration: none;
+	}	
+}
+
+@media only screen and (min-width: 900px) {
+  header,footer{
+    background-color: rgba(0,0,255,0);
+  }
+  h1:after{
+  	content: "(I guess...)";
+  }
+  section{
+		display:inline-block;
+		float:left;
+    font-size: 1.5em;
+  }
+  #left{
+    width:20%;
+	}
+	#center{
+    width:70%;
+  }
+  img{
+    display:inline-block;
+    width:20%;
+    margin:1%;
+    padding:1%;
+  }
+}
+@media only print {
+  body{
+  	background-color: none;
+  	}
+  header h1{
+	font-size: 1em;
+	}
+  nav a{
+	display:block;
+	}
+}
+
