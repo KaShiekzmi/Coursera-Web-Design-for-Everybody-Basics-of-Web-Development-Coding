@@ -6,7 +6,8 @@ Welcome to the "Web Design for Everybody" repository! This repository is dedicat
 
 1- [Introduction to HTML5](https://www.coursera.org/account/accomplishments/certificate/5HT4ZTUSTWJM)\
 2- [Introduction to CSS3](https://www.coursera.org/account/accomplishments/certificate/JCU4BPC9PT2S)\
-3- [Interactivity with JavaScript](https://www.coursera.org/account/accomplishments/certificate/UBVGZ5E3QB2Z)
+3- [Interactivity with JavaScript](https://www.coursera.org/account/accomplishments/certificate/UBVGZ5E3QB2Z)\
+4- [Advanced Styling with Responsive Design](https://www.coursera.org/account/accomplishments/certificate/XP8ATSFACXZL)
 
 ## Contributions
 
